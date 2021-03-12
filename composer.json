@@ -13,6 +13,9 @@
             "Docker\\Tests\\": "tests/"
         }
     },
+    "repositories": [
+        {"type": "vcs", "url": "git@github.com:cedric-b/docker-php-api.git"}
+    ],
     "require": {
         "php": ">=7.1",
         "guzzlehttp/psr7": "^1.7",
@@ -21,7 +24,7 @@
         "php-http/message": "^1.11",
         "symfony/filesystem": "^5.2",
         "symfony/process": "^5.2",
-        "docker-php/docker-php-api": "v4.1.36.1"
+        "docker-php/docker-php-api": "6.1.41.x-dev"
     },
     "suggest": {
         "php-http/httplug-bundle": "For integration with Symfony",
